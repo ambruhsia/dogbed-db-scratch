@@ -1,5 +1,4 @@
-***DBDB (Dog Bed Database)***
-
+*DBDB (Dog Bed Database)*
 DBDB is a simple Python-based key-value database that allows you to store key-value pairs persistently on disk. It is designed to be durable, ensuring data survival in the face of system crashes and error conditions. Unlike many other databases, DBDB does not require all data to be held in memory, which allows it to store larger datasets than would be possible in RAM alone.
 
 The database is built around the concept of immutable binary trees, with separate logical and physical layers. The logical layer abstracts key-value storage, while the physical layer handles disk storage.
