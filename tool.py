@@ -14,6 +14,7 @@ def process_command_line_args(arguments):
         return INVALID_ACTION
 
     database = dbdb.connect(db_name)  # Establishing database connection
+    
 
     try:
         if action == 'get':
